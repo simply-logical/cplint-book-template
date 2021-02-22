@@ -58,6 +58,7 @@
         const thebe_selector_output = ".output"
     </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="canonical" href="http://cplint-template.simply-logical.space/src/cplint_book_template.html" />
     <link rel="shortcut icon" href="../_static/puzzle.svg"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -66,6 +67,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
 
+
+<!-- Opengraph tags -->
+<meta property="og:url"         content="http://cplint-template.simply-logical.space/src/cplint_book_template.html" />
+<meta property="og:type"        content="article" />
+<meta property="og:title"       content="Interactive cplint Book Example" />
+<meta property="og:description" content="Interactive cplint Book Example  About  This online book describes the process of building online interactive cplint materials using SWISH. It is hosted on GitH" />
+<meta property="og:image"       content="http://cplint-template.simply-logical.space/_static/puzzle.svg" />
+
+<meta name="twitter:card" content="summary" />
 
 
   </head>
@@ -246,7 +256,7 @@ with its source hosted in the <a class="reference external" href="https://github
 repository.
 <strong>The main difference between the SWI Prolog and the cplint version is the
 SWISH URL configured with the <code class="docutils literal notranslate"><span class="pre">sp_swish_url</span></code> parameter held under the
-<code class="docutils literal notranslate"><span class="pre">sphinx.config</span></code> key in the <a class="reference external" href="https://github.com/simply-logical/cplint-book-template/blob/master/_config.yml"><code class="docutils literal notranslate"><span class="pre">_conf.py</span></code></a> file.</strong></p>
+<code class="docutils literal notranslate"><span class="pre">sphinx.config</span></code> key in the <a class="reference external" href="https://github.com/simply-logical/cplint-book-template/blob/master/_config.yml"><code class="docutils literal notranslate"><span class="pre">_config.yml</span></code></a> file.</strong></p>
 <div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">sphinx</span><span class="p">:</span>
   <span class="nt">config</span><span class="p">:</span>
     <span class="c1"># Configure sphinx-prolog &lt;https://github.com/simply-logical/sphinx-prolog&gt;</span>
@@ -255,6 +265,27 @@ SWISH URL configured with the <code class="docutils literal notranslate"><span c
 </div>
 <p>To see the full potential of the <code class="docutils literal notranslate"><span class="pre">sphinx-prolog</span></code> extension, have a look at
 the part of its documentation describing <a class="reference external" href="https://book-template.simply-logical.space/src/text/sphinx_prolog_swish.html">interactive SWISH boxes</a>.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If you do not see the interactive cplint SWISH code boxes after
+launching them, make sure that you are browsing the <code class="docutils literal notranslate"><span class="pre">http</span></code> version
+of this website (<a class="reference external" href="http://cplint-template.simply-logical.space/">http://cplint-template.simply-logical.space/</a>) and
+not the <code class="docutils literal notranslate"><span class="pre">https</span></code> one (<a class="reference external" href="https://cplint-template.simply-logical.space/">https://cplint-template.simply-logical.space/</a>).</p>
+<hr class="docutils" />
+<p>Since the cplint SWISH server (<a class="reference external" href="http://cplint.ml.unife.it/">http://cplint.ml.unife.it/</a>) only allows
+<code class="docutils literal notranslate"><span class="pre">http</span></code> communication, the interactive code boxes embedded on this website
+will only work if you browse it via <code class="docutils literal notranslate"><span class="pre">http</span></code>.
+If you were to use <code class="docutils literal notranslate"><span class="pre">https</span></code> instead, you would be sending encrypted data
+into an unencrypted code box, which is blocked for security reasons.
+To ensure that all of the resources are loaded correctly with this
+limitation in place, we advise to explicitly configure the <code class="docutils literal notranslate"><span class="pre">baseurl</span></code>
+parameter of your Jupyter Book with the <code class="docutils literal notranslate"><span class="pre">http</span></code> protocol – it is kept
+under the <code class="docutils literal notranslate"><span class="pre">html</span></code> key in the <a class="reference external" href="https://github.com/simply-logical/cplint-book-template/blob/master/_config.yml"><code class="docutils literal notranslate"><span class="pre">_config.yml</span></code></a> file.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">html</span><span class="p">:</span>
+  <span class="nt">baseurl</span><span class="p">:</span> <span class="s">&#39;http://cplint-template.simply-logical.space/&#39;</span>
+</pre></div>
+</div>
 </div>
 </div>
 <div class="section" id="building-the-book">
