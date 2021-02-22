@@ -1,0 +1,7 @@
+- file: src/cplint_book_template.md
+
+- file: src/text/sphinx_prolog_swish.md
+- url: https://simply-logical.space/
+  title: 'Simply Logical Organisation'
+- url: https://github.com/simply-logical/cplint-book-template
+  title: 'GitHub Template'
