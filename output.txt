@@ -1,0 +1,1 @@
+src/cplint_book_template.md:47: [broken] https://github.com/simply-logical/cplint-book-template#building-the-book: Anchor 'building-the-book' not found
