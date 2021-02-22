@@ -33,6 +33,7 @@ html:
   extra_navbar: ''
   google_analytics_id: '263038817'
   home_page_in_navbar: true
+  baseurl: 'http://cplint-template.simply-logical.space/'
 
 parse:
   myst_enable_extensions:

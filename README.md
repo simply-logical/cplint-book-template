@@ -4,7 +4,7 @@
 [licence-badge]: https://img.shields.io/github/license/simply-logical/cplint-book-template.svg
 [licence-link]: https://github.com/simply-logical/cplint-book-template/blob/master/LICENCE
 [online-badge]: https://img.shields.io/badge/read-online-green.svg
-[online-link]: https://cplint-template.simply-logical.space/
+[online-link]: http://cplint-template.simply-logical.space/
 
 # Interactive cplint Book Example #
 
@@ -12,7 +12,7 @@ This repository holds a [*Jupyter Book*] template for building interactive
 [cplint] books based on [SWISH].
 The cplint support is enabled with our custom [`sphinx-prolog`] extension.
 The built book is hosted on *GitHub Pages* and is available under
-<https://cplint-template.simply-logical.space>.
+<http://cplint-template.simply-logical.space>.
 **This webpage describes the process of building interactive cplint content
 with the aforementioned technology stack.**
 
