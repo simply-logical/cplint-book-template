@@ -64,4 +64,4 @@ sphinx:
     # To avoid this we need to use a custom CSS selector
     copybutton_selector: 'div.highlight:not(.extract):not(.swish) > pre'
     # Configure sphinx-prolog <https://github.com/simply-logical/sphinx-prolog>
-    sp_swish_url: http://cplint.ml.unife.it/
+    sp_swish_url: https://cplint.ml.unife.it/
