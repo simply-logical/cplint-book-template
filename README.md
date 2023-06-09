@@ -45,5 +45,5 @@ with the aforementioned technology stack.**
 
 [*Jupyter Book*]: https://jupyterbook.org/
 [cplint]: https://friguzzi.github.io/cplint/_build/html/
-[SWISH]: http://cplint.ml.unife.it/
+[SWISH]: https://cplint.ml.unife.it/
 [`sphinx-prolog`]: https://github.com/simply-logical/sphinx-prolog

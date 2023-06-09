@@ -103,4 +103,4 @@ inherit-id: swish:cplint1 swish:cplint2 swish:cplint3 swish:cplint4 swish:cplint
 */
 ```
 
-[*Diabetes Mellitus* cplint example]: http://cplint.ml.unife.it/example/inference/diabetes.swinb
+[*Diabetes Mellitus* cplint example]: https://cplint.ml.unife.it/example/inference/diabetes.swinb

@@ -31,9 +31,9 @@ html:
     The source of this book is available on
     <a href="https://github.com/simply-logical/cplint-book-template">GitHub</a>.
   extra_navbar: ''
-  google_analytics_id: '263038817'
+  google_analytics_id: G-6NN5C8KLWJ
   home_page_in_navbar: true
-  baseurl: 'http://cplint-template.simply-logical.space/'
+  baseurl: 'https://cplint-template.simply-logical.space/'
 
 parse:
   myst_enable_extensions:
