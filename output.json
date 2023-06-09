@@ -3,12 +3,12 @@
 {"filename": "src/cplint_book_template.md", "lineno": 30, "status": "working", "code": 0, "uri": "https://book-template.simply-logical.space/src/text/sphinx_prolog_swish.html", "info": ""}
 {"filename": "src/cplint_book_template.md", "lineno": 5, "status": "working", "code": 0, "uri": "https://github.com/simply-logical/cplint-book-template", "info": ""}
 {"filename": "src/cplint_book_template.md", "lineno": 47, "status": "broken", "code": 0, "uri": "https://github.com/simply-logical/cplint-book-template#building-the-book", "info": "Anchor 'building-the-book' not found"}
-{"filename": "src/cplint_book_template.md", "lineno": 5, "status": "working", "code": 0, "uri": "http://cplint.ml.unife.it/", "info": ""}
 {"filename": "src/cplint_book_template.md", "lineno": 13, "status": "working", "code": 0, "uri": "https://github.com/simply-logical/cplint-book-template/blob/master/_config.yml", "info": ""}
+{"filename": "src/cplint_book_template.md", "lineno": 5, "status": "working", "code": 0, "uri": "https://cplint.ml.unife.it/", "info": ""}
 {"filename": "src/text/sphinx_prolog_swish.md", "lineno": 4, "status": "working", "code": 0, "uri": "https://cplint.ml.unife.it/example/inference/diabetes.swinb", "info": ""}
 {"filename": "src/cplint_book_template.md", "lineno": 13, "status": "working", "code": 0, "uri": "https://github.com/simply-logical/prolog-book-template", "info": ""}
 {"filename": "src/cplint_book_template.md", "lineno": 5, "status": "working", "code": 0, "uri": "https://pages.github.com/", "info": ""}
-{"filename": "src/cplint_book_template.md", "lineno": 5, "status": "redirected", "code": 302, "uri": "https://jupyterbook.org/", "info": "https://jupyterbook.org/en/stable/", "text": "with Found"}
 {"filename": "src/cplint_book_template.md", "lineno": 5, "status": "working", "code": 0, "uri": "https://github.com/simply-logical/sphinx-prolog", "info": ""}
+{"filename": "src/cplint_book_template.md", "lineno": 5, "status": "redirected", "code": 302, "uri": "https://jupyterbook.org/", "info": "https://jupyterbook.org/en/stable/", "text": "with Found"}
 {"filename": "src/cplint_book_template.md", "lineno": 13, "status": "working", "code": 0, "uri": "https://www.swi-prolog.org/", "info": ""}
 {"filename": "src/cplint_book_template.md", "lineno": 13, "status": "working", "code": 0, "uri": "https://swish.swi-prolog.org/", "info": ""}

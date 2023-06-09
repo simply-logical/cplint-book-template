@@ -51,7 +51,7 @@ holds the source of this book.
 :::
 
 [cplint]: https://friguzzi.github.io/cplint/_build/html/
-[SWISH]: http://cplint.ml.unife.it/
+[SWISH]: https://cplint.ml.unife.it/
 [SWI Prolog]: https://www.swi-prolog.org/
 [Prolog SWISH]: https://swish.swi-prolog.org/
 [*GitHub Pages*]: https://pages.github.com/
