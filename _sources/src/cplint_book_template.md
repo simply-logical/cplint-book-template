@@ -26,33 +26,10 @@ SWISH URL configured with the `sp_swish_url` parameter held under the
 sphinx:
   config:
     # Configure sphinx-prolog <https://github.com/simply-logical/sphinx-prolog>
-    sp_swish_url: http://cplint.ml.unife.it/
+    sp_swish_url: https://cplint.ml.unife.it/
 ```
 To see the full potential of the `sphinx-prolog` extension, have a look at
 the part of its documentation describing [interactive SWISH boxes].
-:::
-
-:::{warning}
-If you do not see the interactive cplint SWISH code boxes after
-launching them, make sure that you are browsing the `http` version
-of this website (<http://cplint-template.simply-logical.space/>) and
-not the `https` one (<https://cplint-template.simply-logical.space/>).
-
----
-
-Since the cplint SWISH server (<http://cplint.ml.unife.it/>) only allows
-`http` communication, the interactive code boxes embedded on this website
-will only work if you browse it via `http`.
-If you were to use `https` instead, you would be sending encrypted data
-into an unencrypted code box, which is blocked for security reasons.
-To ensure that all of the resources are loaded correctly with this
-limitation in place, we advise to explicitly configure the `baseurl`
-parameter of your Jupyter Book with the `http` protocol -- it is kept
-under the `html` key in the [`_config.yml`] file.
-```yaml
-html:
-  baseurl: 'http://cplint-template.simply-logical.space/'
-```
 :::
 
 ## Building the Book ##
